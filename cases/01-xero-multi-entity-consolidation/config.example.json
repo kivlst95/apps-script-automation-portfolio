@@ -1,0 +1,10 @@
+{
+  "_comment": "Script Properties for this project. Add them under Project Settings > Script properties. JSON values are stored as strings.",
+  "properties": {
+    "XERO_CLIENT_ID": "your-xero-app-client-id",
+    "XERO_CLIENT_SECRET": "your-xero-app-client-secret",
+    "XERO_COMPANIES": "{\"entity_cy\": \"Example Holding Ltd\", \"entity_uk\": \"Example UK Ltd\", \"entity_us\": \"Example Inc\"}",
+    "XERO_ATTACHMENTS_FOLDER_ID": "optional-google-drive-folder-id",
+    "LOG_LEVEL": "INFO"
+  }
+}
