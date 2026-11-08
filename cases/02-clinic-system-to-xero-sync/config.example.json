@@ -1,0 +1,16 @@
+{
+  "_comment": "Script Properties for this project. Add them under Project Settings > Script properties. JSON values are stored as strings.",
+  "properties": {
+    "CLINICCARDS_API_KEY": "your-cliniccards-api-key",
+    "XERO_CLIENT_ID": "your-xero-app-client-id",
+    "XERO_CLIENT_SECRET": "your-xero-app-client-secret",
+    "XERO_TENANT_ID": "optional-xero-tenant-id",
+    "XERO_CASH_ACCOUNT_ID": "xero-bank-account-id-for-cash",
+    "XERO_CARD_ACCOUNT_ID": "xero-bank-account-id-for-card",
+    "XERO_BANK_ACCOUNT_CODE": "090",
+    "SETTINGS_SHEET_GID": "123456789",
+    "XERO_HANDBOOK_SPREADSHEET_ID": "optional-spreadsheet-id",
+    "XERO_HANDBOOK_SHEET_GIDS": "{\"contacts\": 0, \"items\": 111111111, \"accounts\": 222222222}",
+    "LOG_LEVEL": "INFO"
+  }
+}
