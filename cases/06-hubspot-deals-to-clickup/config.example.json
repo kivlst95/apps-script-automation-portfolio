@@ -1,0 +1,13 @@
+{
+  "_comment": "Script Properties for this project. Add them under Project Settings > Script properties. JSON values are stored as strings.",
+  "properties": {
+    "HUBSPOT_CLIENT_ID": "your-hubspot-app-client-id",
+    "HUBSPOT_CLIENT_SECRET": "your-hubspot-app-client-secret",
+    "CLICKUP_API_TOKEN": "pk_your_clickup_token",
+    "CLICKUP_DEALS_LIST_ID": "900000000000",
+    "CLICKUP_FIELD_IDS": "{\"company\": \"uuid\"}",
+    "HANDBOOK_SPREADSHEET_ID": "settings-spreadsheet-id",
+    "HANDBOOK_SHEET_GIDS": "{\"settings\": 111111111, \"enumeration\": 222222222, \"submissions\": 333333333}",
+    "LOG_LEVEL": "INFO"
+  }
+}
