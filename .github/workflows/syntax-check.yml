@@ -1,0 +1,22 @@
+# Checks every Apps Script file for JavaScript syntax errors on each push and pull request.
+name: Syntax check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: node --check on all .js files
+        run: |
+          set -e
+          find . -name "*.js" -not -path "./node_modules/*" -print0 | while IFS= read -r -d '' f; do
+            echo "Checking $f"
+            node --check "$f"
+          done
