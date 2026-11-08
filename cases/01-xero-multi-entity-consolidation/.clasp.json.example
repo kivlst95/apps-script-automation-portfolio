@@ -1,0 +1,10 @@
+{
+  "scriptId": "YOUR_SCRIPT_ID",
+  "rootDir": "src",
+  "filePushOrder": [
+    "src/Logger.js",
+    "src/Config.js",
+    "src/XeroAuth.js",
+    "src/XeroExport.js"
+  ]
+}
