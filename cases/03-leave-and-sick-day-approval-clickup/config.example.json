@@ -1,0 +1,11 @@
+{
+  "_comment": "Script Properties for this project. Add them under Project Settings > Script properties. JSON values are stored as strings.",
+  "properties": {
+    "CLICKUP_API_TOKEN": "pk_your_clickup_token",
+    "CLICKUP_WORKSPACE_ID": "9000000000",
+    "CLICKUP_HR_LIST_ID": "900000000000",
+    "CLICKUP_FIELD_IDS": "{\"joining_date\": \"uuid\", \"probation_end\": \"uuid\", \"probationend\": \"uuid\", \"request_type\": \"uuid\", \"created_user\": \"uuid\", \"off_days\": \"uuid\", \"manager\": \"uuid\", \"inbalance\": \"uuid\", \"sickleavebalance\": \"uuid\", \"vacationbalance\": \"uuid\", \"dayoffbalance\": \"uuid\", \"vacationbeginbalance\": \"uuid\", \"comment\": \"uuid\"}",
+    "CLICKUP_REQUEST_TYPE_OPTIONS": "{\"Vacation\": \"option-uuid\", \"Overtime\": \"option-uuid\", \"Sick leave\": \"option-uuid\"}",
+    "LOG_LEVEL": "INFO"
+  }
+}
