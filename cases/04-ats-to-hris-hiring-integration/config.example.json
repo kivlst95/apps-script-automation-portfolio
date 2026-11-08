@@ -1,0 +1,15 @@
+{
+  "_comment": "Script Properties for this project. Add them under Project Settings > Script properties. JSON values are stored as strings.",
+  "properties": {
+    "MANATAL_API_TOKEN": "your-manatal-token",
+    "PEOPLEFORCE_API_KEY": "your-peopleforce-api-key",
+    "PEOPLEFORCE_SUBDOMAIN": "your-company",
+    "HIRING_SPREADSHEET_ID": "spreadsheet-id-with-logs-and-handbooks",
+    "MANUAL_HIRE_SHEET_GID": "123456789",
+    "MANUAL_HIRE_HISTORY_SHEET_GID": "987654321",
+    "MANUAL_HIRE_TOOL_URL": "https://docs.google.com/spreadsheets/d/<id>/edit#gid=<gid>",
+    "MANATAL_STAGE_IDS": "{\"offer\": 1000001, \"hired\": 1000002, \"probationPassed\": 1000003, \"customProbationPassed\": 1000004, \"terminated\": 1000005}",
+    "PEOPLEFORCE_IDS": "{\"resumeDocumentTypeId\": 10001, \"probationPolicyId\": 10002, \"employmentTypeId\": 10003, \"workingPatternId\": 10004, \"payScheduleId\": 10005, \"leavePolicies\": [{\"type_id\": 20001, \"policy_id\": 30001}, {\"type_id\": 20002, \"policy_id\": 30002}]}",
+    "LOG_LEVEL": "INFO"
+  }
+}
