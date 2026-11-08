@@ -1,0 +1,6 @@
+{
+  "_comment": "Script Properties for this project. Add them under Project Settings > Script properties. JSON values are stored as strings.",
+  "properties": {
+    "LOG_LEVEL": "INFO"
+  }
+}
