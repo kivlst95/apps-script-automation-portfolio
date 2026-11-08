@@ -1,0 +1,14 @@
+{
+  "_comment": "Script Properties for this project. Add them under Project Settings > Script properties. JSON values are stored as strings.",
+  "properties": {
+    "CLICKUP_API_TOKEN": "pk_your_clickup_service_user_token",
+    "WEBHOOK_SECRET": "long-random-string",
+    "CLICKUP_WORKSPACE_ID": "9000000000",
+    "CLICKUP_LIST_MAPPING": "{\"Unit A_false\": [{\"templateId\": \"t-900000000001\", \"folderTo\": \"900000000010\", \"namePattern\": \"RACI {client}\"}, {\"templateId\": \"t-900000000002\", \"folderTo\": \"900000000020\", \"namePattern\": \"Pipeline {client}\"}], \"Unit A_true\": [{\"templateId\": \"t-900000000003\", \"folderTo\": \"900000000010\", \"namePattern\": \"RACI {client}\"}], \"Unit B_false\": [{\"templateId\": \"t-900000000004\", \"folderTo\": \"900000000030\", \"namePattern\": \"\"}], \"Unit B_true\": []}",
+    "CLICKUP_CLIENT_REGISTRY": "{\"listId\": \"900000000099\", \"matchBy\": \"name\", \"fieldId\": \"\", \"includeClosed\": true, \"cacheSeconds\": 120}",
+    "RECORDS_SPREADSHEET_ID": "optional_records_spreadsheet_id",
+    "RECORDS_SHEET": "{\"tab\": \"Subscriptions\", \"columns\": [\"listId\", \"client\", \"linkedTask\", \"unit\"]}",
+    "RECORDS_FIRST_COLUMN": "4",
+    "LOG_LEVEL": "INFO"
+  }
+}
